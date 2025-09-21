@@ -23,6 +23,7 @@ content:
         requirements: "顧客とのコミュニケーション能力"
     company:
         company_features: "フレックスタイム制度、リモートワーク可"
+    summary: "上記内容の適切なサマリ"
 ```
 
 配列の各要素に `all_text` という項目を追加したい。

@@ -12,6 +12,7 @@ RUN apt-get update && \
 
 # Mecab
 RUN apt update && apt install -y mecab mecab-ipadic-utf8 libmecab-dev
-# mkdir -p /usr/local/etc && ln -sf /etc/mecabrc /usr/local/etc/mecabrc
+# 以下も必要だった
+# ln -sf /usr/local/lib/python3.13/site-packages/ipadic/dicdir/mecabrc /usr/local/etc/mecabrc
 
 CMD [ "bash" ]
